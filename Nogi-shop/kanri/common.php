@@ -1,5 +1,5 @@
 <?php
-define('DB_PASS', 'hxp9zWzqzpwXTIvK');
+define('DB_PASS', 'password');
 
 function connect() {
     return new PDO("mysql:host=localhost;dbname=e-shop;charset=utf8","root",DB_PASS);
